@@ -32,6 +32,7 @@ insert into productos(categoriaId, imagen, nombre, precio, email)
             (3, "https://osterar.vteximg.com.br/arquivos/ids/156388-700-700/BLST4655B_ATF-1.jpg?v=637771220391130000/","Licuadora oster", 1000,"oster@licua.com");
 
 select * from productos;
+select count(*) from productos;
 
 select p.categoriaId,
 	p.productoId,
